@@ -27,7 +27,7 @@ then
 		nvm install
 	fi
 fi
-echo "build command ${BUILD_COMMAND}"
+
 NETLIFY_AUTH_TOKEN=$1
 NETLIFY_SITE_ID=$2
 NETLIFY_DEPLOY_TO_PROD=$3
@@ -36,7 +36,7 @@ FUNCTIONS_DIRECTORY=$5
 INSTALL_COMMAND=$6
 BUILD_COMMAND=$7
 DEPLOY_ALIAS=$8
-
+echo "build command ${BUILD_COMMAND}"
 # Install dependencies
 if [[ -n $INSTALL_COMMAND ]]
 then
