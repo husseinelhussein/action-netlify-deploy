@@ -37,6 +37,7 @@ INSTALL_COMMAND=$6
 BUILD_COMMAND=$7
 DEPLOY_ALIAS=$8
 echo "build command 2 $BUILD_COMMAND"
+echo "build dir $BUILD_DIRECTORY"
 # Install dependencies
 if [[ -n $INSTALL_COMMAND ]]
 then
