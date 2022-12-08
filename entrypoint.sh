@@ -36,7 +36,7 @@ FUNCTIONS_DIRECTORY=$5
 INSTALL_COMMAND=$6
 BUILD_COMMAND=$7
 DEPLOY_ALIAS=$8
-echo "build command $BUILD_COMMAND"
+echo "build command 2 $BUILD_COMMAND"
 # Install dependencies
 if [[ -n $INSTALL_COMMAND ]]
 then
