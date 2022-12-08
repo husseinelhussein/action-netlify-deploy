@@ -27,7 +27,7 @@ then
 		nvm install
 	fi
 fi
-
+echo "build command ${BUILD_COMMAND}"
 NETLIFY_AUTH_TOKEN=$1
 NETLIFY_SITE_ID=$2
 NETLIFY_DEPLOY_TO_PROD=$3
