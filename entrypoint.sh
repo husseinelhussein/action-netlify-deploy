@@ -47,7 +47,7 @@ then
 	yarn
 else
 	# dependencies should already be installed
-        #npm i
+        echo "no need to install dep"
 fi
 
 # Build project
