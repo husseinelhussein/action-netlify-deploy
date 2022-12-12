@@ -46,7 +46,8 @@ elif [[ -f yarn.lock ]]
 then
 	yarn
 else
-	npm i
+	# dependencies should already be installed
+        #npm i
 fi
 
 # Build project
